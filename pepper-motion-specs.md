@@ -28,8 +28,8 @@ RPY --> XYZ
 ### ROS Pepper limitation
 
 * LShoulderPitch
-Topic: /pepper_dcm/LShoulderPitch_position_controller/command
 
+Topic: /pepper_dcm/LShoulderPitch_position_controller/command
 ```xml
 <joint name="LShoulderPitch" type="revolute">
 	<parent link="torso"/>
@@ -42,8 +42,8 @@ Topic: /pepper_dcm/LShoulderPitch_position_controller/command
 ```
 
 * LShoudlerRoll
-Topic: /pepper_dcm/LShoulderRoll_position_controller/command
 
+Topic: /pepper_dcm/LShoulderRoll_position_controller/command
 ```xml
 <joint name="LShoulderRoll" type="revolute">
 	<parent link="LShoulder"/>
@@ -55,8 +55,8 @@ Topic: /pepper_dcm/LShoulderRoll_position_controller/command
 ```
 
 * LElbowYaw
-Topic: /pepper_dcm/LElbowYaw_position_controller/command
 
+Topic: /pepper_dcm/LElbowYaw_position_controller/command
 ```xml
 <joint name="LElbowYaw" type="revolute">
 	<parent link="LBicep"/>
@@ -68,8 +68,8 @@ Topic: /pepper_dcm/LElbowYaw_position_controller/command
 ```
 
 * LElbowRoll
-Topic: /pepper_dcm/LElbowRoll_position_controller/command
 
+Topic: /pepper_dcm/LElbowRoll_position_controller/command
 ```xml
 <joint name="LElbowRoll" type="revolute">
 	<parent link="LElbow"/>
@@ -81,8 +81,8 @@ Topic: /pepper_dcm/LElbowRoll_position_controller/command
 ```
 
 * LWristYaw
-Topic: /pepper_dcm/LWristYaw_position_controller/command
 
+Topic: /pepper_dcm/LWristYaw_position_controller/command
 ```xml
 <joint name="LWristYaw" type="revolute">
 	<parent link="LForeArm"/>
@@ -94,8 +94,8 @@ Topic: /pepper_dcm/LWristYaw_position_controller/command
 ```
 
 * LHand
-Topic: /pepper_dcm/LHand_position_controller/command
 
+Topic: /pepper_dcm/LHand_position_controller/command
 ```xml
 <joint name="LHand" type="revolute">
 	<parent link="l_wrist"/>
@@ -107,8 +107,8 @@ Topic: /pepper_dcm/LHand_position_controller/command
 ```
 
 * RShoulderPitch
-Topic: /pepper_dcm/RShoulderPitch_position_controller/command
 
+Topic: /pepper_dcm/RShoulderPitch_position_controller/command
 ```xml
 <joint name="RShoulderPitch" type="revolute">
 	<parent link="torso"/>
@@ -120,8 +120,8 @@ Topic: /pepper_dcm/RShoulderPitch_position_controller/command
 ```
 
 * RShoulderRoll
-Topic: /pepper_dcm/RShoulderRoll_position_controller/command
 
+Topic: /pepper_dcm/RShoulderRoll_position_controller/command
 ```xml
 <joint name="RShoulderRoll" type="revolute">
 	<parent link="RShoulder"/>
@@ -133,8 +133,8 @@ Topic: /pepper_dcm/RShoulderRoll_position_controller/command
 ```
 
 * RElbowYaw
-Topic: /pepper_dcm/RElbowYaw_position_controller/command
 
+Topic: /pepper_dcm/RElbowYaw_position_controller/command
 ```xml
 <joint name="RElbowYaw" type="revolute">
 	<parent link="RBicep"/>
@@ -146,8 +146,8 @@ Topic: /pepper_dcm/RElbowYaw_position_controller/command
 ```
 
 * RElbowRoll
-Topic: /pepper_dcm/RElbowRoll_position_controller/command
 
+Topic: /pepper_dcm/RElbowRoll_position_controller/command
 ```xml
 <joint name="RElbowRoll" type="revolute">
 	<parent link="RElbow"/>
@@ -159,8 +159,8 @@ Topic: /pepper_dcm/RElbowRoll_position_controller/command
 ```
 
 * RWristYaw
-Topic: /pepper_dcm/RWristYaw_position_controller/command
 
+Topic: /pepper_dcm/RWristYaw_position_controller/command
 ```xml
 <joint name="RWristYaw" type="revolute">
 	<parent link="RForeArm"/>
@@ -172,8 +172,8 @@ Topic: /pepper_dcm/RWristYaw_position_controller/command
 ```
 
 * RHand
-Topic: /pepper_dcm/RHand_position_controller/command
 
+Topic: /pepper_dcm/RHand_position_controller/command
 ```xml
 <joint name="RHand" type="revolute">
 	<parent link="r_wrist"/>
@@ -185,8 +185,8 @@ Topic: /pepper_dcm/RHand_position_controller/command
 ```
 
 * HeadYaw
-Topic: /pepper_dcm/HeadYaw_position_controller/command
 
+Topic: /pepper_dcm/HeadYaw_position_controller/command
 ```xml
 <joint name="HeadYaw" type="revolute">
 	<parent link="torso"/>
@@ -198,6 +198,7 @@ Topic: /pepper_dcm/HeadYaw_position_controller/command
 ```
 
 * HeadPitch
+
 Topic: /pepper_dcm/HeadPitch_position_controller/command
 ```xml
 <joint name="HeadPitch" type="revolute">
@@ -210,8 +211,8 @@ Topic: /pepper_dcm/HeadPitch_position_controller/command
 ```
 
 * HipRoll
-Topic: /pepper_dcm/HipRoll_position_controller/command
 
+Topic: /pepper_dcm/HipRoll_position_controller/command
 ```xml
 <joint name="HipRoll" type="revolute">
 	<parent link="torso"/>
@@ -223,8 +224,8 @@ Topic: /pepper_dcm/HipRoll_position_controller/command
 ```
 
 * HipPitch
-Topic: /pepper_dcm/HipPitch_position_controller/command
 
+Topic: /pepper_dcm/HipPitch_position_controller/command
 ```xml
 <joint name="HipPitch" type="revolute">
 	<parent link="Hip"/>
@@ -236,8 +237,8 @@ Topic: /pepper_dcm/HipPitch_position_controller/command
 ```
 
 * KneePitch
-Topic: /pepper_dcm/KneePitch_position_controller/command
 
+Topic: /pepper_dcm/KneePitch_position_controller/command
 ```xml
 <joint name="KneePitch" type="revolute">
 	<parent link="Pelvis"/>
