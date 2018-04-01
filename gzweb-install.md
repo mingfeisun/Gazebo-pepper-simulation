@@ -1,7 +1,7 @@
 ## Gzweb
 Gzweb is installed on the server-side. Once the server is set up and running, clients can interact with the simulation simply by accessing the server's URL on a web browser.
 
-## Install
+## [Install](http://gazebosim.org/tutorials?tut=gzweb_install&cat=gzweb)
 
 1. prerequisite
 
