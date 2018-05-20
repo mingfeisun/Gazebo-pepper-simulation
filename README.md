@@ -15,6 +15,5 @@ roslaunch pepper_gazebo_plugin pepper_gazebo_plugin_Y20.launch
 # example
 rostopic pub /pepper_dcm/HeadYaw_position_controller/command std_msgs/Float64 "1"
 
-# 
 
 ```
